@@ -30,7 +30,7 @@ Nov nalog člana može se napraviti i preko stranice **Registracija**.
 | 6 | Spoljni veb servis | [Open-Meteo API](https://open-meteo.com/): trenutno vreme na početnoj i prognoza za vreme svakog treninga |
 | 7 | AJAX | Rezervacija i otkazivanje, pretraga i filtriranje rasporeda, brisanje treninga, upload slike |
 | 8 | JavaScript | Kartice, brojač slobodnih mesta, toast poruke, indikator jačine lozinke – sve se menja kroz DOM |
-| 9 | Bezbednost | `password_hash`/`password_verify`, PDO prepared statements, CSRF tokeni, `htmlspecialchars` (XSS), kontrola pristupa po ulogama, `session_regenerate_id`, zaštićeni folderi preko `.htaccess` |
+| 9 | Bezbednost | `password_hash`/`password_verify`, PDO prepared statements, CSRF tokeni, `htmlspecialchars` (XSS), kontrola pristupa po ulogama, `session_regenerate_id`, zaštićeni folderi preko `.htaccess` , Zastita protiv Brute-Force napda (lockout posle 5 neuspesnih prijava) |
 | 10 | Dizajn | Bootstrap 5 + Bootstrap Icons, responzivno (telefon, tablet, desktop) |
 
 ## Veb servisi aplikacije (JSON API)
