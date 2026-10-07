@@ -1,0 +1,65 @@
+/* FitTermin – dodatni stilovi uz Bootstrap 5 */
+
+body {
+    background-color: #f4f5f7;
+}
+
+.hero {
+    background:
+        radial-gradient(circle at 85% 20%, rgba(255, 193, 7, .35), transparent 45%),
+        linear-gradient(135deg, #1f2329 0%, #343a40 100%);
+}
+
+/* Kartice treninga */
+.trening-card {
+    border: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.trening-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .75rem 1.5rem rgba(0, 0, 0, .12) !important;
+}
+
+.trening-img {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+.detail-img {
+    height: 340px;
+    object-fit: cover;
+}
+
+/* Kad trening nema sliku – gradijent po kategoriji */
+.trening-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, .85);
+    font-size: 3.5rem;
+    background: linear-gradient(135deg, #6c757d, #343a40);
+}
+.kat-kardio   { background: linear-gradient(135deg, #ff6b6b, #c0392b); }
+.kat-snaga    { background: linear-gradient(135deg, #495057, #212529); }
+.kat-joga     { background: linear-gradient(135deg, #63cdda, #227093); }
+.kat-pilates  { background: linear-gradient(135deg, #f8a5c2, #b33771); }
+.kat-crossfit { background: linear-gradient(135deg, #f7b731, #e67e22); }
+.kat-boks     { background: linear-gradient(135deg, #a55eea, #5f27cd); }
+
+/* Animacije koje koristi JavaScript */
+.fade-out {
+    opacity: 0;
+    transform: scale(.97);
+    transition: opacity .3s ease, transform .3s ease;
+}
+#treninziLista.loading {
+    opacity: .5;
+    pointer-events: none;
+    transition: opacity .15s;
+}
+
+.navbar .nav-link.active {
+    color: #ffc107 !important;
+}
