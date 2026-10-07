@@ -5,14 +5,16 @@ FitTermin je veb aplikacija za online rezervaciju grupnih treninga u teretani.
 bez osvežavanja stranice. Administrator (vlasnik teretane) dodaje, menja i briše treninge,
 otprema slike i vidi spisak prijavljenih članova za svaki termin.
 
-**Live demo:** https://TVOJ-SAJT.infinityfreeapp.com
+**Live demo:** https://fittermin.infinityfreeapp.com
 
 ## Podaci za prijavu
 
 | Uloga         | Email                | Lozinka     |
 |---------------|----------------------|-------------|
 | Administrator | `admin@fittermin.rs` | `Admin123!` |
-| Član          | `clan@fittermin.rs`  | `Clan123!`  |
+| Član          | `profesor@fittermin.rs`  | `test`  |
+
+Nalozi iznad važe na live sajtu. Fajl database/schema.sql sadrži zasebne probne naloge (admin@fittermin.rs / Admin123!, clan@fittermin.rs / Clan123!) za lokalnu instalaciju.
 
 Nov nalog člana može se napraviti i preko stranice **Registracija**.
 
@@ -71,11 +73,11 @@ FitTermin/
 
 ## Lokalno pokretanje (XAMPP)
 
-1. Kopiraj folder `FitTermin` u `C:\xampp\htdocs\`.
-2. Pokreni **Apache** i **MySQL** u XAMPP Control Panel-u.
+1. Kopirati folder `FitTermin` u `C:\xampp\htdocs\`.
+2. Pokrenuti **Apache** i **MySQL** u XAMPP Control Panel-u.
 3. U phpMyAdmin-u (`http://localhost/phpmyadmin`) napravi bazu `fittermin` (utf8mb4_unicode_ci)
-   i importuj `database/schema.sql`.
-4. Otvori `http://localhost/FitTermin`.
+   i importovati `database/schema.sql`.
+4. Otvoriti `http://localhost/FitTermin`.
 
-Podrazumevana podešavanja baze su `root` bez lozinke. Ako su drugačija, kopiraj
-`config/config.local.example.php` u `config/config.local.php` i upiši svoje podatke.
+Podrazumevana podešavanja baze su `root` bez lozinke. Ako su drugačija, kopirati
+`config/config.local.example.php` u `config/config.local.php` i upisati svoje podatke.
