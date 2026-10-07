@@ -1,0 +1,8 @@
+config/config.local.php
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
