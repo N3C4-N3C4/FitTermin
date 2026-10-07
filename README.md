@@ -5,7 +5,7 @@ FitTermin je veb aplikacija za online rezervaciju grupnih treninga u teretani.
 bez osvežavanja stranice. Administrator (vlasnik teretane) dodaje, menja i briše treninge,
 otprema slike i vidi spisak prijavljenih članova za svaki termin.
 
-**Live demo:** https://fittermin.infinityfreeapp.com
+**Live demo:** https://fittermin.infinityfree.io
 
 ## Podaci za prijavu
 
