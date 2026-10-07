@@ -14,7 +14,7 @@ otprema slike i vidi spisak prijavljenih članova za svaki termin.
 | Administrator | `admin@fittermin.rs` | `Admin123!` |
 | Član          | `profesor@fittermin.rs`  | `test`  |
 
-Nalozi iznad važe na live sajtu. Fajl database/schema.sql sadrži zasebne probne naloge (admin@fittermin.rs / Admin123!, clan@fittermin.rs / Clan123!) za lokalnu instalaciju.
+Nalozi iznad važe na live sajtu. 
 
 Nov nalog člana može se napraviti i preko stranice **Registracija**.
 
